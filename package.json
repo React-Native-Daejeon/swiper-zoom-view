@@ -1,0 +1,60 @@
+{
+  "name": "swiper-zoom-view",
+  "version": "0.0.1",
+  "private": true,
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "lint": "eslint --ext .tsx --ext .ts src/",
+    "format": "prettier --check ./src",
+    "start": "rm -rf dev/dist && tsc -w --outDir dev/dist",
+    "prepare": "rm -rf dist && tsc"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "devDependencies": {
+    "@types/react": "*",
+    "@types/react-native": "*",
+    "@typescript-eslint/eslint-plugin": "2.25.0",
+    "@typescript-eslint/parser": "2.25.0",
+    "@babel/core": "^7.8.4",
+    "@babel/runtime": "^7.8.4",
+    "@react-native-community/eslint-config": "^1.1.0",
+    "babel-jest": "^25.1.0",
+    "eslint": "^6.5.1",
+    "jest": "^25.1.0",
+    "metro-react-native-babel-preset": "^0.59.0",
+    "react-test-renderer": "16.13.1",
+    "eslint-plugin-prettier": "3.1.2",
+    "eslint-plugin-react": "7.19.0",
+    "eslint-plugin-react-hooks": "2.5.1",
+    "husky": "4.2.3",
+    "prettier": "2.0.2",
+    "react": "*",
+    "react-native": "*",
+    "typescript": "^3.7.5"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "description": "React Native SwiperZoomView Library",
+  "directories": {
+    "example": "example"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/React-Native-Daejeon/swiper-zoom-view.git"
+  },
+  "keywords": [
+    "react-native"
+  ],
+  "author": "ReDWit Dev <redwitdev@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/React-Native-Daejeon/swiper-zoom-view/issues"
+  },
+  "homepage": "https://github.com/React-Native-Daejeon/swiper-zoom-view#readme"
+}
