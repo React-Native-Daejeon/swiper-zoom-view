@@ -1,7 +1,6 @@
 {
   "name": "swiper-zoom-view",
   "version": "0.0.1",
-  "private": true,
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -10,6 +9,7 @@
     "start": "rm -rf dev/dist && tsc -w --outDir dev/dist",
     "prepare": "rm -rf dist && tsc"
   },
+  "dependencies": {},
   "peerDependencies": {
     "react": "*",
     "react-native": "*"
